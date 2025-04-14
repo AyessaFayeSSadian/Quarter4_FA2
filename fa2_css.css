@@ -1,0 +1,16 @@
+
+table { border: solid black; }
+
+table td, table th { border: 1px solid black; }
+
+table tr:nth-child(even) { background-color: white; }
+
+table tr:hover { background-color: white; }
+
+body {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+
+}
+
