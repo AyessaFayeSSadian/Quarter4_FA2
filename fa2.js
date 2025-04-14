@@ -31,6 +31,6 @@
 	}
 
 	table   +=  "</table>";
-	document.getElementById("multiplicationTable").innerHTML = table;
+	document.getElementById("multitable").innerHTML = table;
  }
    
