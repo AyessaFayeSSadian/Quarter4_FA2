@@ -1,8 +1,8 @@
  function multitable() {
-	 let table;
-     table   =   "<table>";
-     let countRows       =   document.getElementById("countRows").value;
-     let countColumns    =   document.getElementById("countColumns").value;
+     let table;
+     table = "<table>";
+     let countRows = document.getElementById("countRows").value;
+     let countColumns = document.getElementById("countColumns").value;
 
 	let counts = [
 		countRows,
@@ -10,8 +10,8 @@
     ]
 
 	let count   =   {
-		Rows:      document.getElementById("countRows").value,
-		Columns:   document.getElementById("countColumns").value
+		Rows: document.getElementById("countRows").value,
+		Columns: document.getElementById("countColumns").value
 	}
 
 
@@ -31,6 +31,6 @@
 	}
 
 	table   +=  "</table>";
-	document.getElementById("multitable").innerHTML = table;
+	document.getElementById("multiplicationTable").innerHTML = table;
  }
    
