@@ -23,12 +23,10 @@
     }
 
 	for (len = 1; len   <=   count.Rows; len++) {
-    table += "<tr>";
-
+   		table += "<tr>";
 		for (i  =   1; i    <=   count.Columns; i++) {
 			table   +=  "<td>" + i * len + "</td>";
 		} 
-
 		table += "</tr>";
 	}
 
